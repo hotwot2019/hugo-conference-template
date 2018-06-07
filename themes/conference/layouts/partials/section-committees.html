@@ -1,0 +1,35 @@
+<section id="section-committees" class="section-wrapper section-committees">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h1>Committees</h1>
+                </div>
+            </div>
+        </div>
+
+        {{range .Site.Data.committee.committee}}
+        <div class="row">
+            <div class="col-md-12">
+                <h2>{{.label}}</h2>
+                <div class="row">
+                    {{range .member}}
+                    <div class="col-sm-6 col-md-3 committee">
+                        <h3>{{.name}} </h3>
+                        <small>{{.org}}</small>
+                        <ul class="social-links">
+                            {{with .email}}<li><a href="mailto:{{.}}"><i class="fa fa-envelope"></i></a></li>{{end}}
+                            {{with .homepage}}<li><a href="{{.}}"><i class="fa fa-link"></i></a></li>{{end}}
+                            {{with .linkedin}}<li><a href="{{.}}"><i class="fa fa-linkedin"></i></a></li>{{end}}
+                            {{with .twitter}}<li><a href="{{.}}"><i class="fa fa-twitter"></i></a></li>{{end}}
+                        </ul>
+                    </div>                        
+                    {{end}}
+                </div>
+            </div>
+        </div>        
+        {{end}}
+        <!-- .row -->
+    </div>
+    <!-- /.container -->
+</section>

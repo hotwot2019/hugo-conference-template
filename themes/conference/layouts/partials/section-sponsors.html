@@ -1,0 +1,19 @@
+
+    <section id="section-sponsor" class="section-wrapper section-sponsor">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Sponsors</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                {{ range .Site.Data.conference.sponsors }}
+                <div class="col-md-2 col-sm-4 col-xs-6 section-margin">
+                    <a href="{{.link}}"><img class="img-responsive" src="{{.logo}}" alt="{{.name}}"></a>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>

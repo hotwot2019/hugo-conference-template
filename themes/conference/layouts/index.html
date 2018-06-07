@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+
+{{partial "head.html" .}}
+
+<body id="page-top" data-spy="scroll" data-target=".navbar">
+<div id="main-wrapper">
+    <!-- Page Preloader -->
+    <div id="preloader">
+        <div id="status">
+            <div class="status-mes"></div>
+        </div>
+    </div>
+
+    <!-- header -->
+    {{partial "header.html" .}}
+
+    <!-- jumbotron -->
+    {{partial "jumbotron.html" .}}
+
+    <!-- cfp-section -->
+    {{partial "section-cfp.html" .}}
+
+    <!-- dates-section -->
+    {{partial "section-dates.html" .}}  
+
+    <!-- organizer-section -->
+    {{partial "section-committees.html" .}} 
+
+    <!-- venue-section -->
+    {{partial "section-program.html" .}}
+
+    <!-- venue-section -->
+    {{partial "section-sponsors.html" .}}
+
+    <!-- venue-section -->
+    {{partial "section-venue.html" .}}
+
+    <!-- contact-section -->
+    {{partial "section-contact.html" .}}
+
+    <!-- footer -->
+    {{partial "footer.html" .}}
+
+</div>
+<!-- #main-wrapper -->
+
+
+<!-- jquery -->
+<script src="js/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp92pi-iPAME69l_sZFSJaYws0e9rGApA"></script>
+
+<!--<script src="js/one-page-nav.js"></script>-->
+<!-- <script src="js/scripts.js"></script> -->
+{{partial "js.html" .}}
+
+</body>
+</html>

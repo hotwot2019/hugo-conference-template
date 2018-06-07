@@ -1,0 +1,32 @@
+[[committee]]
+    label = "Program Chairs"
+
+    [[committee.member]]
+        name = "Qun Li"
+        org = "College of William & Mary"
+        homepage = "http://www.cs.wm.edu/~liqun"
+        email = "liqun@cs.wm.edu"
+        linkedin = "https://www.linkedin.com/in/qun-li-9b50055/"
+
+    [[committee.member]]
+        name = "Chonggang Wang"
+        org = "InterDigital Communications"
+        email = "chonggang.wang@interdigital.com"
+        linkedin = "https://www.linkedin.com/in/chonggangwang/"
+
+[[committee]]
+    label = "Program Committee"
+
+    [[committee.member]]
+        name = "TBA"
+        org = "TBA"
+        homepage = "TBA"
+
+[[committee]]
+    label = "Web Chair"
+
+    [[committee.member]]
+        name = "Shanhe Yi"
+        org = "VMware"
+        homepage = "http://www.cs.wm.edu/~syi"
+        linkedin = "https://www.linkedin.com/in/shanheyi/"

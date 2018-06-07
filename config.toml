@@ -1,0 +1,50 @@
+baseURL = "https://hotwot2018.github.io/"
+languageCode = "en-us"
+title = "HotWoT2018" # also use for copyright
+theme = "conference" # set the theme
+test = "section-cfp"
+
+[menu]
+
+## url
+# to form a link like url#identifier
+
+## identifier
+# to form a link like url#identifier
+# also used to arrange the sections
+
+## weight 
+# set to 0 to make it invisible, start from 1 to order them.
+
+[[menu.main]]
+identifier = "section-cfp"
+name = "CFP"
+weight = 1 
+
+[[menu.main]]
+identifier = "section-dates"
+name = "Important Dates"
+weight = 2 
+
+[[menu.main]]
+identifier = "section-committees"
+name = "Committees"
+weight = 3
+
+[[menu.main]]
+identifier = "section-program"
+name = "Program"
+weight = 4
+
+[[menu.main]]
+identifier = "section-sponsors"
+name = "Sponsors"
+weight = 5
+
+[[menu.main]]
+identifier = "section-venue"
+name = "Venue"
+weight = 6
+
+
+

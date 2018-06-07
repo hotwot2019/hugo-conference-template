@@ -1,0 +1,24 @@
+<section id="section-dates" class="section-wrapper gray-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <div class="section-title">
+                    <h1>Important Dates</h1>
+                </div>
+            </div>
+
+            {{range .Site.Data.conference.deadlines}}
+                <div class="col-sm-6 col-md-3 col-xs-6">
+                    <div class="section-title">
+                        <h4>{{.event}}</h4>
+                        {{if eq .expired true }}
+                        <p class="lead"><del>{{.deadline}}</del></p>
+                        {{else}}
+                        <p class="lead">{{.deadline}}</p>
+                        {{end}}
+                    </div>
+                </div>           
+            {{end}}
+        </div>
+    </div>
+</section>

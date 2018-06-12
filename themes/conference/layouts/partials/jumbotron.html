@@ -5,6 +5,6 @@
             {{range .Site.Data.conference.descriptions}}
                 <p class="lead">{{.}}</p>
             {{end}}
-            <button type="button" class="btn btn-default btn-lg btn-scale">{{.Site.Data.conference.highlight}}</button>
+            <button type="button" class="btn btn-default btn-lg btn-scale"><a href="{{.Site.Data.conference.submission_page}}">{{.Site.Data.conference.highlight}}</a></button>
         </div>
     </div>

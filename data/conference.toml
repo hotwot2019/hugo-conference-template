@@ -15,8 +15,8 @@ highlight = "Submission Deadline: July 15, 2017"
 submission_page = "https://easychair.org/conferences/?conf=hotwot18"
 
 
-
-
+privacy_annoucement = "IEEE websites place cookies on your device to give you the best user experience. By using our websites, you agree to the placement of these cookies. To learn more, read our "
+privacy_policy_link = "https://www.ieee.org/security-privacy.html"
 
 ## CFP ##
 # please edit the themes/conference/layout/partials/section-cfp.html for best presentation.

@@ -11,12 +11,13 @@ descriptions = [
     "In the era of Web of Things (WoT), interactions among physical objects become a reality thanks to the advances in communication technologies, information processing, embedded computing, and smart devices. We envision WoT, which captures the essence of how web technologies develop on top of the Internet of Things, will be a fundamental infrastructure for next generation computer systems.",
     "Collocated with ACM/IEEE SEC 2018, http://acm-ieee-sec.org/2018/"
     ]
-highlight = "Submission Deadline: July 15, 2017"
+highlight = "Submission Deadline: July 29, 2017"
 submission_page = "https://easychair.org/conferences/?conf=hotwot18"
 
 
 privacy_annoucement = "IEEE websites place cookies on your device to give you the best user experience. By using our websites, you agree to the placement of these cookies. To learn more, read our "
 privacy_policy_link = "https://www.ieee.org/security-privacy.html"
+cfp_file = "./file/ACM-IEEE-HotWoT-2018-CFP.pdf"
 
 ## CFP ##
 # please edit the themes/conference/layout/partials/section-cfp.html for best presentation.
@@ -25,7 +26,7 @@ privacy_policy_link = "https://www.ieee.org/security-privacy.html"
 
 [[deadlines]]
 event = "Submission Deadline"
-deadline = "July 15, 2018"
+deadline = "July 29, 2018, extended"
 expired = false
 
 [[deadlines]]

@@ -15,12 +15,135 @@
         linkedin = "https://www.linkedin.com/in/chonggangwang/"
 
 [[committee]]
-    label = "Program Committee"
+    label = "Technical Program Committee"
 
     [[committee.member]]
-        name = "TBA"
-        org = "TBA"
-        homepage = "TBA"
+        name = "Songqing Chen"
+        org = "George Mason University"
+        homepage = "https://cs.gmu.edu/~sqchen/"
+        email = "sqchen@gmu.edu"
+        linkedin = "https://www.linkedin.com/in/songqing-chen-87286160/"
+
+    [[committee.member]]
+        name = "Brian Davison"
+        org = "Lehigh University"
+        homepage = "http://www.cse.lehigh.edu/~brian/"
+        email = "davison@cse.lehigh.edu"
+        linkedin = "https://www.linkedin.com/in/brianddavison/"
+
+    [[committee.member]]
+        name = "Fred Douglis"
+        org = "Perspecta Labs"
+        email = "fd-easychair@douglis.org"
+        homepage = "http://www.douglis.org/fred/"
+        linkedin = "https://www.linkedin.com/in/freddouglis/"
+        twitter = "https://twitter.com/FredDouglis"
+
+    [[committee.member]]
+        name = "Giancarlo Fortino"
+        org = "University of Calabria"
+        homepage = "http://si.deis.unical.it/~fortino/"
+        email = "g.fortino@unical.it"
+        linkedin = "https://www.linkedin.com/in/giancarlo-fortino-2040067/"
+
+    [[committee.member]]
+        name = "Chenfei Gao"
+        org = "AT&T Lab Research"
+        email = "cgao@research.att.com"
+        linkedin = "https://www.linkedin.com/in/chenfei-gao-287b2888/"
+
+    [[committee.member]]
+        name = "Simon Mayer"
+        org = "ETH Zurich"
+        email = "simon.mayer@inf.ethz.ch"
+        homepage = "http://people.inf.ethz.ch/mayersi/"
+
+    [[committee.member]]
+        name = "Tobias Meisen"
+        org = "RWTH Aachen University"
+        homepage = "https://cybernetics-lab.de/en/employees/tobias.meisen"
+        email = "tobias.meisen@ima-ifu.rwth-aachen.de"
+        linkedin = "https://www.linkedin.com/in/tobias-meisen-b8476558/"
+
+    [[committee.member]]
+        name = "Aziz Mohaisen"
+        org = "University of Central Florida"
+        homepage = "https://www.cs.ucf.edu/~mohaisen/"
+        email = "mohaisen@ucf.edu"
+        linkedin = "https://www.linkedin.com/in/amohaisen/"
+        twitter = "https://twitter.com/amohaisen?lang=en"
+
+    [[committee.member]]
+        name = "Marina Mongiello"
+        org = "Politecnico di Bari, Italy"
+        homepage = "http://sisinflab.poliba.it/mongiello"
+        linkedin = "https://www.linkedin.com/in/marina-mongiello-60673472/"
+        email = "marina.mongiello@poliba.it"
+
+    [[committee.member]]
+        name = "Xiaohui Peng"
+        org = "Chinese Academy of Science"
+        email = "pengxiaohui@ict.ac.cn"
+        linkedin = "https://www.linkedin.com/in/%E6%99%93%E6%99%96-%E5%BD%AD-571582135/"
+
+    [[committee.member]]
+        name = "Kay Roemer"
+        org = "Graz University of Technology"
+        homepage = "https://www.tugraz.at/en/institute/iti/institute/team/prof-kay-roemer/"
+        email = "roemer@tugraz.at"
+
+    [[committee.member]]
+        name = "Weisong Shi"
+        org = "Wayne State University"
+        homepage = "http://www.cs.wayne.edu/~weisong/"
+        email = "weisong@wayne.edu"
+        linkedin = "https://www.linkedin.com/in/weisongshi/"
+        twitter = "https://twitter.com/shiweisong"
+
+    [[committee.member]]
+        name = "Christopher Stewart"
+        org = "Ohio State University"
+        homepage = "http://web.cse.ohio-state.edu/~stewart.962/"
+        email = "cstewart@cse.ohio-state.edu"
+        linkedin = "https://www.linkedin.com/in/christopher-stewart-95315715/"
+
+    [[committee.member]]
+        name = "Craig Wills"
+        org = "Worcester Polytechnic Institute"
+        homepage = "http://web.cs.wpi.edu/~cew/"
+        email = "cew@cs.wpi.edu"
+        linkedin = "https://www.linkedin.com/in/craig-wills-4287174/"
+
+    [[committee.member]]
+        name = "Shanhe Yi"
+        org = "VMware"
+        homepage = "http://www.cs.wm.edu/~syi"
+        linkedin = "https://www.linkedin.com/in/shanheyi/"
+        email = "syi@email.wm.edu"
+
+    [[committee.member]]
+        name = "Shucheng Yu"
+        org = "Stevens Institute of Technology"
+        homepage = "http://personal.stevens.edu/~syu19/"
+        email = "shucheng.yu@stevens.edu"
+        linkedin = "https://www.linkedin.com/in/shuchengyu/"
+
+    [[committee.member]]
+        name = "Yifan Zhang"
+        org = "Binghamton University, SUNY"
+        homepage = "http://www.cs.binghamton.edu/~zhangy/"
+        email = "zhangy@binghamton.edu"
+        linkedin = "https://www.linkedin.com/in/yifan-zhang-96b2b020/"
+
+[[committee]]
+    label = "Publicity Chair"
+
+    [[committee.member]]
+        name = "Yifan Zhang"
+        org = "Binghamton University, State University of New York"
+        homepage = "http://www.cs.binghamton.edu/~zhangy/"
+        email = "zhangy@binghamton.edu"
+        linkedin = "https://www.linkedin.com/in/yifan-zhang-96b2b020/"
 
 [[committee]]
     label = "Web Chair"
@@ -30,3 +153,4 @@
         org = "VMware"
         homepage = "http://www.cs.wm.edu/~syi"
         linkedin = "https://www.linkedin.com/in/shanheyi/"
+        email = "syi@email.wm.edu"
